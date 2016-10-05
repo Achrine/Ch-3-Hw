@@ -21,3 +21,6 @@ int main(){
   double average; 
 //Overview Statement 
   cout << "This program will calculate the average of five test scores.\n\n";
+    
+    return 0;
+}
