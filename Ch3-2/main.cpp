@@ -1,14 +1,31 @@
 //Programmer: Steven 
-// Assignment: Ch3 Challenge 1
+// Assignment: Ch3 Challenge 2
 //Filename: main.cpp
 //Creation Date: 10/06/16
 //Description: The purpose of this program is to calculate gas mileage for a car. 
-//Book description: Write a program that calculates a car's gas mileage. The program should ask for. 
-// The number of gallons of gas the car can hold, the number of miles driven on a full tank. 
-// It should display the number of miles driven per gallon. Or miles per gallon. 
+//Book description: Assume a string object has been defined as follows: string description; 
+// Write a cin statement that reads in a one-word string,
+// Write a statement that reads in a string that can contain multiple words separated by blanks.
 
-//Ch3, challenge 1, Miles per Gallon. 
+//Ch3, challenge 2
 
 //Preprocessor Directive 
-#include <iostream>$
+#include <iostream>
+#include "string.h"
+#include <sstream>
 using namespace std;
+
+
+int main(){
+	string description = " ";
+	cout << "Hello, input description of one word: ";
+	getline(cin, description);
+
+	string desc_2 = "";
+	cout << "\nInput many words: ";
+	cin >> desc_2; 
+
+	cout << "\nYou inputed: " << description;
+	cout << "\nYou wrote: " << desc_2;
+	
+}
