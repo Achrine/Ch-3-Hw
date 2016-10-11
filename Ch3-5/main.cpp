@@ -1,32 +1,14 @@
 //Programmer: Steven 
-// Assignment: Ch3 Challenge 5
+// Assignment: Ch3 Challenge 1
 //Filename: main.cpp
 //Creation Date: 10/06/16
-//Description: The purpose of this program is to recreate equations
-//Book description: 
-/*
-Write C++ expressions for the following algebraic expressions: 
-a = 12x 
-z = 5x + 14y + 6k
-y = x^4
-g = (h + 12)/4k
-c = (a^3)/(b^2 k^4)
+//Description: The purpose of this program is to calculate gas mileage for a car. 
+//Book description: Write a program that calculates a car's gas mileage. The program should ask for. 
+// The number of gallons of gas the car can hold, the number of miles driven on a full tank. 
+// It should display the number of miles driven per gallon. Or miles per gallon. 
 
-
-*/
-//Ch3, challenge 5, 
+//Ch3, challenge 1, Miles per Gallon. 
 
 //Preprocessor Directive 
-#include <iostream>
-#include "string.h"
-#include <sstream>
+#include <iostream>$
 using namespace std;
-
-int main() {
-	int x, y, k, h, b, //now and below, are the equations
-		a = 12 * x, z = (5 * x) + (14 * y) + (6 * k), y = x ^ 4, g = (h + 12) / (4 * k),
-		c = (a ^ 3) / (b ^ 2 * k ^ 4);
-
-
-	return 0;
-}
