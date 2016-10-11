@@ -17,5 +17,16 @@ c = (a^3)/(b^2 k^4)
 //Ch3, challenge 5, 
 
 //Preprocessor Directive 
-#include <iostream>$
+#include <iostream>
+#include "string.h"
+#include <sstream>
 using namespace std;
+
+int main() {
+	int x, y, k, h, b, //now and below, are the equations
+		a = 12 * x, z = (5 * x) + (14 * y) + (6 * k), y = x ^ 4, g = (h + 12) / (4 * k),
+		c = (a ^ 3) / (b ^ 2 * k ^ 4);
+
+
+	return 0;
+}
