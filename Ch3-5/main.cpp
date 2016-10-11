@@ -2,7 +2,7 @@
 // Assignment: Ch3 Challenge 5
 //Filename: main.cpp
 //Creation Date: 10/06/16
-//Description: The purpose of this program is to calculate gas mileage for a car. 
+//Description: The purpose of this program is to recreate equations
 //Book description: 
 /*
 Write C++ expressions for the following algebraic expressions: 
