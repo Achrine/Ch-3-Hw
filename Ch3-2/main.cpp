@@ -17,15 +17,16 @@ using namespace std;
 
 
 int main(){
-	string description = " ";
+	string description = " "; //variable declaration 
 	cout << "Hello, input description of one word: ";
-	getline(cin, description);
+	getline(cin, description); // take the input
 
-	string desc_2 = "";
+	string desc_2 = ""; // variable declaration 
 	cout << "\nInput many words: ";
-	cin >> desc_2; 
+	cin >> desc_2;  // take input
 
-	cout << "\nYou inputed: " << description;
-	cout << "\nYou wrote: " << desc_2;
+	cout << "\nYou inputed: " << description; //return input
+	cout << "\nYou wrote: " << desc_2; //return input
 	
+	return 0;
 }

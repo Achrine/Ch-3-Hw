@@ -1,13 +1,20 @@
 //Programmer: Steven 
-// Assignment: Ch3 Challenge 1
+// Assignment: Ch3 Challenge 5
 //Filename: main.cpp
 //Creation Date: 10/06/16
 //Description: The purpose of this program is to calculate gas mileage for a car. 
-//Book description: Write a program that calculates a car's gas mileage. The program should ask for. 
-// The number of gallons of gas the car can hold, the number of miles driven on a full tank. 
-// It should display the number of miles driven per gallon. Or miles per gallon. 
+//Book description: 
+/*
+Write C++ expressions for the following algebraic expressions: 
+a = 12x 
+z = 5x + 14y + 6k
+y = x^4
+g = (h + 12)/4k
+c = (a^3)/(b^2 k^4)
 
-//Ch3, challenge 1, Miles per Gallon. 
+
+*/
+//Ch3, challenge 5, 
 
 //Preprocessor Directive 
 #include <iostream>$
