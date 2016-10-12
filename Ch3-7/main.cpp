@@ -41,9 +41,9 @@ int main(){
     // calories eaten is how many cookies were eaten mult by calories
     calories_eaten = cookies_eaten * calories_per_cookie;
     
-
-    cout << "You have eaten " << cookies_eaten << " cookies " << endl;
-    cout << "You have eaten " << calories_eaten << " calories " << endl;
+    cout << setprecision(2) << fixed; //set precision
+    cout << "Cookies you have eaten: " << setw(4) <<cookies_eaten  <<endl;
+    cout << "Calories you have eaten: " << setw(4) << calories_eaten << endl;
     
     
     
