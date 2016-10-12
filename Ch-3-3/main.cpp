@@ -38,14 +38,9 @@ int main(){
   //Format the output before sending it to the screen. 
   //Use set precision and the fixed manipulator
   //Set it up to show two digits to the right of the decimal poitn. See page 117 
-  cout << // finish the formatting statement -- see page 117;
+  // finish the formatting statement -- see page 117;
     // Output 
     cout << "\n\n Your average test score is: " << average << "percent" << endl;
   //The next line of code reads: return zero. 
   return 0;
-}
-  
-  
-    
-    return 0;
 }
