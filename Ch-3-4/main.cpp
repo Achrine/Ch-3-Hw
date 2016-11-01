@@ -40,12 +40,11 @@ int main(){
 	
 	//Output 
 	//Display the average rainfall. 
-	cout <, "\nThe average rainfall for "
+	cout << "\nThe average rainfall for "
 	<< month1 << "," << month2 << ",and " << month3 << " is "
-	<< fixed << showpoint << set precision(2) << rainAvg << " inches.\n\n"; //the lines are formatted to look nice...
+	<< fixed << showpoint << setprecision(2) << rainAvg << " inches.\n\n"; //the lines are formatted to look nice...
 	
 	return 0;
 	
 }
 	
-}

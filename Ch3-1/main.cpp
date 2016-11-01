@@ -15,7 +15,7 @@ using namespace std;
 
 int main(){
 	double mileage, // hold the calculated miles per gallon 
-	gallons, /hold the gas tank capacity (in gallons)
+	gallons, //hold the gas tank capacity (in gallons)
 	miles; // to hold the miles the car can go on 1 tank of gas. 
 	
 	//Input -- Using promyt and response method. 
